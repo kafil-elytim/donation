@@ -1,0 +1,31 @@
+        <div class="ccpba">
+            <div class="textone">
+                <h2>:تبرع عن طريق</h2>
+            </div>
+            <p class="li1">CCP :</p>
+            <p class="p1">001311880489</p>
+            <p class="li1">Baridimob</p>
+            <p class="p1">0079999007311880489</p>
+        </div>
+
+
+
+        .textone{
+    padding: 0 450px;
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+}
+.ccpba{
+    color: white;
+    margin-left: 55px;
+    margin-top: 20px;
+    text-align: center;
+}
+.li1{
+    margin-top: 20px;
+    text-align: center;
+}
+.p1{
+    margin-top: 5px;
+}

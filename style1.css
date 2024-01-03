@@ -1,0 +1,328 @@
+/* القواعد العامة هنا */
+* {
+    font-family: kiko;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: kiko;
+    src: url(Rubik-ExtraBold.ttf);
+}
+
+/* قواعد عندما يكون عرض الشاشة أكبر من 767 بيكسل (كمبيوتر) */
+@media only screen and (min-width: 768px) {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+    body {
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    header {
+        width: 100%;
+        z-index: 999;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 200px;
+        margin-left: 5px;
+    }
+    .mune a{
+        color: white;
+        margin-left: 5px;
+        text-decoration: none;
+        transition: all 0.7s ease-in-out;
+    }
+    .mune a:hover{
+        color: #66cd66;
+    }
+
+
+    .text {
+        text-align: center; /* جعل النص في وسط الصفحة */
+    }
+
+    .text h2 {
+        color: whitesmoke;
+        font-size: 2.2em;
+        font-weight: 800;
+        margin-bottom: 30px;
+        margin-top: 0;
+        padding: 50px 10px 10px;
+        letter-spacing: 1px;
+    }
+
+    .text h3,
+    .text h4 {
+        padding: 0 20px;
+        text-align: center;
+        color: whitesmoke;
+        display: flex;
+        letter-spacing: 1px;
+        margin-top: 5px;
+    }
+
+    .info {
+        color: white;
+        font-size: 1em;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .ccpba {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .btn1 a {
+        color: white;
+        background-color: #4c9f70; /* لون الخلفية الأصلي */
+        text-decoration: none;
+        font-size: 1.2em;
+        font-weight: 600;
+        display: inline-block;
+        padding: 0.9375em 2.1875em;
+        letter-spacing: 1px;
+        border-radius: 15px;
+        margin-bottom: 40px;
+        transition: background-color 0.7s ease-in-out, color 0.7s ease-in-out, transform 0.7s ease-in-out;
+        margin: 10px 5px;
+    }
+    
+    .btn1 a:hover {
+        transform: scale(1.2);
+        color: #ffffff; /* لون النص عند التحويل */
+        background-color: #66cd66; /* لون الخلفية عند التحويل */
+    }
+    
+}
+.logo img {
+    text-decoration: none;
+    color: whitesmoke;
+    text-transform: uppercase;
+    width:100px;
+     height:50px;
+    transition: all 1s ease-in-out;
+}
+.text4 a{
+  color:#61b5ff;
+  text-decoration:none;
+  margin-top:10px;
+}
+.text h4 {
+  text-align:center;
+}
+.text video {
+    border-radius: 15px; /* Adjust the value as needed */
+}
+.videoone{
+  text-align:center;
+  padding:0 0 20px;
+  margin-top:20px;
+}
+.text p{
+  text-align:center;
+  color:white;
+  text-decoration:none;
+  margin-top:10px;
+}
+
+
+/* قواعد عندما يكون عرض الشاشة أقل من 768 بيكسل (هاتف) */
+@media only screen and (max-width: 767px) {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+    * {
+        font-family: kiko;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+
+    body {
+        background-attachment: fixed;
+        background-size: cover;
+    }
+  .mune a{
+      color: white;
+      margin-left: 5px;
+      text-decoration: none;
+      transition: all 0.7s ease-in-out;
+  }
+  .riser{
+    margin-right:5px;
+  }
+  .mune a:hover{
+      color: #66cd66;
+  }
+
+    header {
+        width: 100%;
+        z-index: 999;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 20px;
+      
+    }
+
+    .logoone img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .text {
+        text-align: center; /* جعل النص في وسط الصفحة */
+    }
+
+    .text h2 {
+        color: whitesmoke;
+        font-size: 2.2em;
+        font-weight: 800;
+        margin-bottom: 30px;
+        margin-top: 0;
+        padding: 50px 10px 10px;
+        letter-spacing: 1px;
+    }
+
+    .text h3,
+    .text h4 {
+        padding: 0 20px;
+        text-align: center;
+        color: whitesmoke;
+        display: flex;
+        letter-spacing: 1px;
+        margin-top: 5px;
+    }
+
+    .info {
+        color: white;
+        font-size: 1em;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .ccpba {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .btn1 a {
+        color: white;
+        background-color: #4c9f70; /* لون الخلفية الأصلي */
+        text-decoration: none;
+        font-size: 1.2em;
+        font-weight: 600;
+        display: inline-block;
+        padding: 0.9375em 2.1875em;
+        letter-spacing: 1px;
+        border-radius: 15px;
+        margin-bottom: 40px;
+        transition: background-color 0.7s ease-in-out, color 0.7s ease-in-out, transform 0.7s ease-in-out;
+        margin: 10px 5px;
+    }
+    
+    .btn1 a:hover {
+        transform: scale(1.2);
+        color: #ffffff; /* لون النص عند التحويل */
+        background-color: #66cd66; /* لون الخلفية عند التحويل */
+    }
+    
+}
+.ccpbane{
+    color: rgb(94, 94, 255);
+    transition: all 0.7s ease-in-out;
+}
+.ccpbane:hover{
+    color: #66cd66;
+}
+.logo img {
+    text-decoration: none;
+    color: whitesmoke;
+    text-transform: uppercase;
+    width:150px;
+     height:100px;
+    transition: all 1s ease-in-out;
+}
+.text4 a{
+  color:#61b5ff;
+  margin-top:10px;
+}
+.text h4 {
+  text-align:center;
+}
+.text video {
+    border-radius: 15px; /* Adjust the value as needed */
+}
+.videoone{
+  text-align:center;
+  padding:0 0 20px;
+  margin-top:20px;
+}
+.text6{
+  color:white;
+  text-align:center;
+  margin-top:30px;
+}
+.info2{
+  color: white;
+  font-size: 1em;
+  text-align: center;
+  margin-top: 20px;
+  padding:0 0 10px;
+}
+.text p{
+  text-align:center;
+  color:white;
+  text-decoration:none;
+  margin-top:10px;
+}
+.kiko a{
+  color:#00ff91;
+  text-decoration:none;
+}
+.kiko{
+  text-align:center;
+  margin-top:10px;
+}
+.hmla img{
+  width:350px;
+  height:250px;
+   border-radius: 15px;
+}
+.hmla{
+  text-align:center;
+  margin-top:40px;
+}
+.hmla h2{
+  padding:0 0 10px;
+  color:white;
+}
+.hmla p{
+  padding:0 0 10px;
+  color:white;
+}
+.videoone2{
+  text-align:center;
+  padding:0 0 20px;
+  margin-top:20px;
+  
+}
+.n2{
+  text-align:center;
+  color:white;
+  margin-top:50px;
+  
+}
+.n2 h2{
+  padding:0 0 10px;
+  color:white;
+
+}
+.info2 h1{
+  margin-top:50px;
+}

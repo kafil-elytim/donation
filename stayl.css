@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: kiko; /* استخدم الخط من Google Fonts */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: kiko;
+    src: url(Rubik-ExtraBold.ttf);
+}
+
+header {
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.A {
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+.logo img {
+    text-decoration: none;
+    color: whitesmoke;
+    text-transform: uppercase;
+    width:150px;
+     height:100px;
+    transition: all 1s ease-in-out;
+}
+
+.menu a, .ris, .ris2 {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 1.2em;
+    transition: all 0.7s ease-in-out;
+}
+
+.ris, .ris2 {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.ris:hover, .ris2:hover {
+    transform: scale(1.1);
+    color: #66cd66;
+}
+
+.ctn {
+    padding: 5% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.7s ease-in-out;
+}
+
+.mod, #sub, .mode {
+    text-align: center;
+    margin: 10px;
+}
+
+.progr {
+    text-align: center;
+    text-decoration: none;
+}
+
+.ccpba{
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+.li1{
+    margin-top: 10px;
+    text-align: center;
+}
+.p1{
+    margin-top: 5px;
+}
+.error-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffcccc;
+    color: #ff0000;
+    padding: 10px;
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+    display: none;
+}
